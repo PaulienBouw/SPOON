@@ -1,38 +1,82 @@
 .App {
+  font-family: "Source Sans Pro", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  background-color: #ffe384;
+ 
+  width: 100vw;
+}
+header{
+  border-bottom: 3px solid #f9d251;
+}
+header h1{
+  margin: 0px;
+  padding: 40px;
+  font-weight: bold;
+  font-size: 24px;
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+main{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: min-content;
+  padding: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+main .article{
+  display: block;
+  padding: 50px;
+  background-color: rgba(0, 0, 0, 0.4);
   color: white;
+  width: 60%;
+  height: 100%;
+  margin: 0 auto;
+  
+}
+main div h1{
+  font-size: 32px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+main div p{
+  line-height: 25px;
+  font-size: 18px;
+}
+main div ul{
+  display: flex;
+  justify-content: space-around;
+  align-content: stretch;
+  margin-top: 30px;
+  
+}
+main div ul li{
+  list-style: none;
+  background-color: #333333;
+  margin: 20px 0;
+  padding: 20px;
+  width: 300px;
+  border-radius: 5px;
+}
+main div ul li h2{
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+main div ul li p{
+  font-size: 16px
+}
+footer h3{
+  text-align: center;
+  margin-top: 40px;
+}
+footer iframe{
+  display: block;
+  margin: 0 auto;
 }
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*Beide werken niet. Iframe is niet te stylen...*/
+footer iframe .H5hzf .RH5hzf .QvWxOd {
+  background-color: #c1282f!important ;
+} 
+ footer .Uc2NEf .RH5hzf .xpWfed{
+  display: none!important;
 }
